@@ -57,7 +57,7 @@ for (let i = 0; i < 2; i++) {
 appData.moneyPerDay = appData.budget / 30;
 
 
-alert ("Бюджет на 1 день составляет " + appData.moneyPerDay + "руб.");
+alert ("Бюджет на 1 день составляет " + appData.moneyPerDay + "грн.");
 
 
 if (appData.moneyPerDay < 100) {
