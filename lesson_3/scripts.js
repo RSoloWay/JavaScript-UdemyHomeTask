@@ -10,7 +10,7 @@ function start() {
 
     time = +prompt('Введите дату в формате YYYY-MM-DD','');
 }    
-// start();
+start();
 
 let appData = {
     budget: money,
@@ -35,7 +35,7 @@ function chooseExpenses() {
         }
     }
 }
-// chooseExpenses();
+chooseExpenses();
 
 
 function detectDayBudget() {
@@ -64,7 +64,7 @@ function checkSavings() {
         alert('Ваш доход от депозита составляет: ' + appData.monthIncome + ' в месяц.');
     }
 }
-// checkSavings()
+checkSavings()
 
 
 function chooseOptionalExpenses() {
