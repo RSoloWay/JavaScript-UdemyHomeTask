@@ -41,7 +41,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
     // TIMER
 
-    let deadLine = '2019-08-23';
+    let deadLine = '2019-09-1';
 
     function getTimeRemaining(endtime) {
         let t  = Date.parse(endtime) - Date.parse(new Date()),
@@ -56,6 +56,8 @@ window.addEventListener('DOMContentLoaded', function() {
             'seconds': seconds,
         }
     }
+
+
 
     function setClock(id, endtime) {
         let timer = document.getElementById(id),
